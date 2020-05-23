@@ -1,0 +1,67 @@
+
+                                     F A C T O R   
+
+
+                           Unrestricted Factor Analysis 
+
+                                Release Version 10.9.02  x64bits
+                                     May, 2019
+                            Rovira i Virgili University
+                                Tarragona, SPAIN
+
+                                   Programming:
+                               Urbano Lorenzo-Seva
+
+                            Mathematical Specification:
+                               Urbano Lorenzo-Seva
+                                 Pere J. Ferrando
+
+                            Date: Wednesday, February 19, 2020
+                            Time: 10:46:3
+--------------------------------------------------------------------------------
+
+DETAILS OF ANALYSIS
+
+Participants' scores data file                       : C:\Users\Ícaro Macedo\Desktop\Iniciações Científicas\2019 - Iniciação Científica PIBIC-UFPI\Directory_PIBIC_2019\ECB_PIBIC_2019.dat
+Method to handle missing values                      : Hot-Deck Multiple Imputation in Exploratory Factor Analysis (Lorenzo-Seva & Van Ginkel, 2016)
+Missing code value                                   : 999
+Number of participants                               : 216
+Number of variables                                  : 30
+Variables included in the analysis                   : V11, V12, V13, V14, V15, V16
+Variables excluded in the analysis                   : V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, V29, V30
+Number of factors                                    : 0
+Number of second order factors                       : 0
+Procedure for determining the number of dimensions   : Hull method for selecting the number of common factors (Lorenzo-Seva, Timmerman, & Kiers, 2011)
+Dispersion matrix                                    : Polychoric Correlations
+Robust analyses                                      : Bias-corrected and accelerated  (BCa; Lambert, Wildt & Durand, 1991)
+Number of bootstrap samples                          : 500
+Asymptotic Covariance/Variance matrix                : estimated using bootstrap sampling
+Bootstrap confidence intervals                       :  95%
+Method for factor extraction                         : Robust Unweighted Least Squares (RULS)
+Correction for robust Chi square                     : Robust Mean and Variance-scaled (Asparouhov & Muthen, 2010)
+Rotation to achieve factor simplicity                : Robust Promin (Lorenzo-Seva & Ferrando, 2019c)
+Clever rotation start                                : Weighted Varimax
+Number of random starts                              : 100
+Maximum mumber of iterations                         : 1000
+Convergence value                                    : 0.00001000
+Factor scores estimates                              : Estimates based on linear model
+
+--------------------------------------------------------------------------------
+
+UNIVARIATE DESCRIPTIVES 
+
+Variable     Mean       Confidence Interval     Variance   Skewness     Kurtosis
+                        (95%)                                          (Zero centered)
+
+V  11        1.023     (   0.83     1.22)       1.273      1.121        0.590
+V  12        0.829     (   0.63     1.03)       1.336      1.368        0.915
+V  13        0.255     (   0.15     0.36)       0.393      3.364       13.678
+V  14        0.481     (   0.32     0.64)       0.852      2.274        4.894
+V  15        0.681     (   0.49     0.87)       1.153      1.679        2.052
+V  16        0.116     (   0.03     0.20)       0.241      5.675       36.950
+
+Polychoric correlation is advised when the univariate distributions of ordinal items are 
+asymmetric or with excess of kurtosis. If both indices are lower than one in absolute value, 
+then Pearson correlation is advised. You can read more about this subject in:
+
+Muthén, B., & Kaplan D. (1985). A comparison of some methodologies for the factor analysis of non-normal Likert variables. British Journal of Mathematical and Statistical Psychology, 38, 171-189. 
