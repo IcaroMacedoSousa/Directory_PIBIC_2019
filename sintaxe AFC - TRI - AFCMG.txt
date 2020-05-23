@@ -1,5 +1,8 @@
 #####   Sintaxe PIBIC (2019)   #####
 
+### Pacotes Psicométricos ###
+install
+
 ### Análise de TRI ###
 install.packages("psych")
 install.packages("GPArotation")
